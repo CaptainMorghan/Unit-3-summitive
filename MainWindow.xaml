@@ -1,0 +1,15 @@
+﻿<Window x:Class="Unit_3_summitive.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Unit_3_summitive"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Button x:Name="Click" Click="Click_Click" Content="Start Game" />
+        <Label x:Name="lblOutput" Content="" />
+        <TextBox x:Name="txtLetter" />
+        <Button x:Name="LetterInput" Click="LetterInput_Click" Content="Guess Letter" />
+    </StackPanel>
+</Window>
